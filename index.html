@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Наша компания занимается проектированием и строительством зданий любого уровня. Мы строим надёжные и качественные дома по всему миру уже более 20 лет.">
+    <title>Digital project</title>
+    <link rel="preload" href="fonts/TTHoves-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/TTHoves-Light.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/TTHoves-Medium.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/TTHoves-Bold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/SFProDisplay-Black.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/OpenSans-Semibold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/GothicA1-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="css/style.css" as="style" type="text/css" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style" type="text/css" crossorigin />
+    <link rel="preload" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" as="style" type="text/css"
+        crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" type="icon/x-icon" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav header__nav container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.webp" alt="Dgital project" class="logo__img" width="70" height="44">
+            </a>
+            <ul id="burgerMenu" class="menu header__menu burger-menu">
+                <li class="menu__item header__menu-item">
+                    <a href="#" class="menu__link header__menu-link">Главная</a>
+                </li>
+                <li class="menu__item header__menu-item">
+                    <a href="#" class="menu__link header__menu-link">Галерея</a>
+                </li>
+                <li class="menu__item header__menu-item">
+                    <a href="#" class="menu__link header__menu-link">Проекты</a>
+                </li>
+                <li class="menu__item header__menu-item">
+                    <a href="#" class="menu__link header__menu-link">Сертификаты</a>
+                </li>
+                <li class="menu__item header__menu-item">
+                    <a href="#" class="menu__link header__menu-link">Контакты</a>
+                </li>
+            </ul>
+            <button id="burgerBtn" class="burger-menu__btn header__burger-btn" aria-label="Меню" type="button">
+                <i class="icon icon-menu "></i>
+                <i class="icon icon-close"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1 class="visually-hidden">Digital projects</h1>
+        <section class="hero container">
+            <div class="swiper hero-slider">
+                <div class="swiper-wrapper hero-slider__wrap">
+                    <div class="swiper-slide hero-slider__slide">
+                        <h2 class="hero-slider__slide-title"><span>Project</span> home</h2>
+                        <figure class="hero-slider__slide-figure">
+                            <img src="img/hero.webp" alt="building" class="hero-slider__slide-img" width="770"
+                                height="829">
+                            <a href="#" class="btn hero-slider__slide-btn">
+                                Взглянуть
+                                <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                                </svg>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide hero-slider__slide">
+                        <h2 class="hero-slider__slide-title"><span>Project</span> house</h2>
+                        <figure class="hero-slider__slide-figure">
+                            <img data-src="img/hero2.webp" alt="building" src="img/hero2.webp"
+                                data-srcset="img/hero2.webp 2x" class="hero-slider__slide-img swiper-lazy" width="770"
+                                height="829">
+                            <a href="#" class="btn hero-slider__slide-btn">
+                                Взглянуть
+                                <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                                </svg>
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+                <button type="button" aria-label="Предыдущий слайд" name="slider button"
+                    class="swiper-button-prev hero-slider__btn hero-slider__btn_prev">
+                    <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                    </svg>
+                </button>
+                <button type="button" aria-label="Следующий слайд" name="slider button"
+                    class="swiper-button-next hero-slider__btn hero-slider__btn_next">
+                    <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                    </svg>
+                </button>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="about container">
+            <div class="about__wrap ">
+                <figure class="about__pic-block">
+                    <img src="img/about1.webp" alt="Здание компании" class="about__img" width="270" height="265"
+                        loading="lazy" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="img/about2.webp" alt="Здание компании" class="about__img" width="270" height="345"
+                        loading="lazy" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="img/about3.webp" alt="Здание компании" class="about__img" width="270" height="140"
+                        loading="lazy" data-aos="fade-right" data-aos-duration="1000">
+                </figure>
+                <div class="about__offer">
+                    <h2 class="section-title about__offer-title">О компании</h2>
+                    <p class="about__offer-text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+                        only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged.
+                    </p>
+                    <a href="#" class="btn about__offer-btn">
+                        Читать
+                        <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-tasks">
+            <div class="container">
+                <h2 class="section-title main-tasks__title">Основные задачи</h2>
+                <div class="main-tasks__group">
+                    <div class="main-tasks__task" data-aos="flip-up" data-aos-duration="1000">
+                        <span class="main-tasks__task-number">1</span>
+                        <p class="main-tasks__task-description">
+                            Создание комфортных условий и повышение качества обслуживания клиентов
+                        </p>
+                    </div>
+                    <div class="main-tasks__task" data-aos="flip-down" data-aos-duration="1000">
+                        <span class="main-tasks__task-number">2</span>
+                        <p class="main-tasks__task-description">
+                            Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки
+                            нового оборудования и усиленной рекламы на рынке
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-projects">
+            <div class="our-projects__wrap container">
+                <h2 class="section-title our-projects__title">Наши проекты</h2>
+                <div class="our-projects__wrap">
+                    <article class="project-card our-projects__card" data-aos="zoom-in" data-aos-duration="1000">
+                        <h3 class="project-card__title our-projects__card-title">Досуговый центр</h3>
+                        <a href="#" class="project-card__btn our-projects__project-btn">
+                            Подробнее
+                            <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                            </svg>
+                        </a>
+                    </article>
+                    <article class="project-card our-projects__card" data-aos="zoom-in-down" data-aos-duration="1000">
+                        <h3 class="project-card__title our-projects__card-title">Театр</h3>
+                        <a href="#" class="project-card__btn our-projects__project-btn">
+                            Подробнее
+                            <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                            </svg>
+                        </a>
+                    </article>
+                    <article class="project-card our-projects__card" data-aos="zoom-in-right" data-aos-duration="1000">
+                        <h3 class="project-card__title our-projects__card-title">Школа</h3>
+                        <a href="#" class="project-card__btn our-projects__project-btn">
+                            Подробнее
+                            <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                            </svg>
+                        </a>
+                    </article>
+                    <article class="project-card our-projects__card" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <h3 class="project-card__title our-projects__card-title">Жилой комплекс</h3>
+                        <a href="#" class="project-card__btn our-projects__project-btn">
+                            Подробнее
+                            <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                            </svg>
+                        </a>
+                    </article>
+                    <article class="project-card our-projects__card" data-aos="zoom-in-left" data-aos-duration="1000">
+                        <h3 class="project-card__title our-projects__card-title">Центр</h3>
+                        <a href="#" class="project-card__btn our-projects__project-btn">
+                            Подробнее
+                            <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                            </svg>
+                        </a>
+                    </article>
+                </div>
+                <a href="#" class="btn our-projects__btn">
+                    Все проекты
+                    <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <section class="contact-us">
+            <div class="container">
+                <h2 class="section-title contact-us__title">Связаться с нами</h2>
+                <div class="contact-us__wrap">
+                    <form action="#" method="post" class="form contact-us__form">
+                        <label class="form__label contact-us__form-label">
+                            <input id="name" class="form__input contact-us__form-input" type="text" name="name"
+                                placeholder="Имя">
+                        </label>
+                        <label class="form__label contact-us__form-label required">
+                            <input id="phoneNumber" class="form__input contact-us__form-input" type="tel"
+                                name="phoneNumber" placeholder="Номер телефона" required>
+                        </label>
+                        <label class="form__label contact-us__form-label required">
+                            <input id="email" class="form__input contact-us__form-input" type="email" name="email"
+                                placeholder="E-mail" required>
+                        </label>
+                        <label class="form__label contact-us__form-label">
+                            <input id="interesting" class="form__input contact-us__form-input" type="text"
+                                name="interesting" placeholder="Интересующий товар/услуга">
+                        </label>
+                        <label class="form__label contact-us__form-label required">
+                            <textarea id="message" class="form__input contact-us__form-input" name="message"
+                                placeholder="Сообщение" required></textarea>
+                        </label>
+                        <label class="form__label-checkbox contact-us__form-checkbox">
+                            <input id="agree" name="agree" type="checkbox" class="form__checkbox contact-us__checkbox"
+                                required>
+                            <span class="form__check"></span>
+                            Отправляя заявку Вы
+                            соглашаетесь с политикой
+                            конфиденциальности
+                        </label>
+                        <button id="sendForm" class="btn form__btn contact-us__form-btn" type="submit">
+                            Отправить
+                            <svg class="arrow" width="19" height="9" viewbox="0 0 19 9" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" />
+                            </svg>
+                        </button>
+                    </form>
+                    <img src="img/man-with-phone.webp" class="contact-us__img" alt="Связаться с нами" width="749"
+                        height="369" loading="lazy">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__main container">
+            <a href="index.html" class="logo">
+                <img src="img/logo-light.webp" alt="Digital project" class="logo__img" width="145" height="94"
+                    loading="lazy">
+            </a>
+            <div class="footer__info">
+                <div class="footer__info-nav">
+                    <h2 class="footer__title">Информация</h2>
+                    <ul class="menu footer__menu">
+                        <li class="menu__item footer__menu-item">
+                            <a href="#" class="menu__link footer__menu-link">Главная</a>
+                        </li>
+                        <li class="menu__item footer__menu-item">
+                            <a href="#" class="menu__link footer__menu-link">Галерея</a>
+                        </li>
+                        <li class="menu__item footer__menu-item">
+                            <a href="#" class="menu__link footer__menu-link">Проекты</a>
+                        </li>
+                        <li class="menu__item footer__menu-item">
+                            <a href="#" class="menu__link footer__menu-link">Сертификаты</a>
+                        </li>
+                        <li class="menu__item footer__menu-item">
+                            <a href="#" class="menu__link footer__menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contacts footer__contacts">
+                    <h2 class="footer__title">Контакты</h2>
+                    <ul class="contacts__list footer__contacts-list">
+                        <li class="contacts__item footer__contacts-item">
+                            <a href="https://goo.gl/maps/kHP5TnUCDpaTms6S9" rel="nofollow noreferrer noopener"
+                                class="contacts__link footer__contacts-link" target="_blank" title="Карта">
+                                <i class="icon-geo"></i>
+                                100000, Республика Казахстан, г. Караганда, ул. Телевизионная 10
+                            </a>
+                        </li>
+                        <li class="contacts__item footer__contacts-item">
+                            <a href="tel:+380000000000" class="contacts__link footer__contacts-link"
+                                title="Номер телефона">
+                                <i class="icon-telephone    "></i>
+                                +38 (000) 000 00 00
+                            </a>
+                        </li>
+                        <li class="contacts__item footer__contacts-item">
+                            <a href="mailto:mail@gmail.com" class="contacts__link footer__contacts-link" title="Почта">
+                                <i class="icon-mail"></i>
+                                mail@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="socials footer__socials">
+                    <h2 class="footer__title">Социальные сети</h2>
+                    <ul class="socials__list footer__socials-list">
+                        <li class="socials__list-item footer__socials-item">
+                            <a href="https://facebook.com" rel="nofollow noreferrer noopener"
+                                class="socials__list-link footer__socials-link" target="_blank" title="Facebook">
+                                <i class="icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="socials__list-item footer__socials-item">
+                            <a href="https://twitter.com" rel="nofollow noreferrer noopener"
+                                class="socials__list-link footer__socials-link" target="_blank" title="Twitter">
+                                <i class="icon-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="socials__list-item footer__socials-item">
+                            <a href="https://linkedin.com" rel="nofollow noreferrer noopener"
+                                class="socials__list-link footer__socials-link" target="_blank" title="LinkedIn">
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="socials__list-item footer__socials-item">
+                            <a href="https://pinterest.com" rel="nofollow noreferrer noopener"
+                                class="socials__list-link footer__socials-link" target="_blank" title="Pinterest">
+                                <i class="icon-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="copyright">© <span id="copyrightYear">2019</span> Digital Project. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script defer src="js/app.js"></script>
+
+</body>
+
+</html>

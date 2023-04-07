@@ -1,0 +1,77 @@
+/* ----- FONTS START ----- */
+@font-face {
+    font-family: "TTHoves";
+    src: local("TTHoves Light"), local("TTHoves-Light"),
+      url("../fonts/TTHoves-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "TTHoves";
+    src: local("TTHoves Regular"), local("TTHoves-Regular"),
+      url("../fonts/TTHoves-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "TTHoves";
+    src: local("TTHoves Medium"), local("TTHoves-Medium"),
+      url("../fonts/TTHoves-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "TTHoves";
+    src: local("TTHoves Bold"), local("TTHoves-Bold"),
+      url("../fonts/TTHoves-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "SFProDisplay";
+    src: local("SFProDisplay Black"), local("SFProDisplay-Black"),
+      url("../fonts/SFProDisplay-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: local("OpenSans Regular"), local("OpenSans-Regular"),
+      url("../fonts/OpenSans-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: local("OpenSans Semibold"), local("OpenSans-Semibold"),
+      url("../fonts/OpenSans-Semibold.woff2") format("woff2");
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "GothicA1";
+    src: local("GothicA1 Regular"), local("GothicA1-Regular"),
+      url("../fonts/GothicA1-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "icomoon";
+    src: url("../fonts/icomoon.eot?c9gpfj");
+    src: url("../fonts/icomoon.eot?c9gpfj#iefix") format("embedded-opentype"),
+      url("../fonts/icomoon.ttf?c9gpfj") format("truetype"),
+      url("../fonts/icomoon.woff?c9gpfj") format("woff"),
+      url("../fonts/icomoon.svg?c9gpfj#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  /* ----- FONTS END ----- */
